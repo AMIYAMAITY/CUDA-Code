@@ -1,0 +1,2 @@
+Compile: nvcc -x cu resize_gpu.c  -o resize -std=c++11  -I$OPENCV_INCLUDE -L /opt/opencv/lib/ -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_videoio
+Run: ./resize
